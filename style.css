@@ -8,6 +8,7 @@
 }
 
 .body{
+    background:  hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 100vh;
@@ -16,8 +17,6 @@
 }
 
 .card{
-width: 100px;
-text-align: center;
 background: white;
 border-radius: 20px;
 box-shadow: 0 15px 25px 0 hsla(245, 75%, 52%, .11);
