@@ -54,6 +54,7 @@ margin-right: 1.5em;
 }
 
 .info{
+    color: var(--clr-neutral-blue-300);
     line-height: 1.6;
     font-size: .95rem;
     padding: 0 2.1em 1.4em 2.1em;
@@ -70,6 +71,7 @@ margin-right: 1.5em;
   }
 
 .info-box{
+    background: var(--clr-neutral-blue-100);
     display: flex;
     justify-content: space-between;
     align-items: center;
