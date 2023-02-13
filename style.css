@@ -98,6 +98,11 @@ margin-right: 1.5em;
     font-size: .7rem;
 }
 
+.main-box h4{
+    color: var(--clr-neutral-blue-800);
+    font-size: .9rem;
+}
+
 .info-left{
     display: flex;
 }
@@ -133,6 +138,15 @@ margin-right: 1.5em;
     box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, .25);
     opacity: 1;
     transition: all .2s ease;
+  }
+
+  .cancel-btn {
+    color: var(--clr-neutral-blue-300);
+    transition: color .2s ease;
+  }
+  
+  .cancel-btn:hover {
+    color: var(--clr-neutral-blue-800);
   }
 
 @media (min-width: 450px) {
